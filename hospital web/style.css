@@ -1,0 +1,492 @@
+
+.home{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/Untitled design.jpg");
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: #000000;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+.navbar .nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin: 0 15px;
+}
+
+.navbar .nav-links a {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+  font-size: 25px;
+  padding: 5px 10px;
+  font-weight: 400;
+  font-family: serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  background-color: #575555;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 5px 5px 5px #000000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.con1,
+.con2 {
+  display: flex;
+  margin-left: 55%;
+}
+.con01,
+.con02 {
+  height: 220px;
+  width: 300px;
+  border: 5px solid rgb(5, 150, 194);
+  border-radius: 18px;
+  margin: 30px;
+  background-color: rgb(5, 150, 194);
+  box-shadow: 5px 5px 5px #000000;
+}
+.fa-calendar-check,
+.fa-magnifying-glass,
+.fa-hospital,
+.fa-laptop,
+.fa-stethoscope,
+.fa-pills {
+  color: aliceblue;
+  font-size: 80px;
+  margin-top: 25px;
+  margin-left: 35%;
+}
+p {
+  color: #000000;
+  font-size: 23px;
+  padding-top: 50px;
+  font-family: serif;
+  text-align: center;
+}
+#search-section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+}
+
+main {
+  padding: 1rem;
+}
+.backbtn {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 15%;
+  border-radius: 28px;
+  padding-top: 9px;
+  padding-left: 23px;
+  height: 10%;
+  background-color: #077aa8;
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+.search-section {
+  background: linear-gradient(to right, #027b99, #0b323d);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+.results-section {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #b3d9ff;
+  border-radius: 8px;
+}
+.search {
+  margin-top: 70px;
+}
+#search-form {
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 60%;
+  font-size: 30px;
+}
+.search {
+  font-size: 35px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  margin-right: 100px;
+  font-size: 1rem;
+  border: 1px solid #07bbe7;
+  border-radius: 4px;
+}
+
+form button {
+  background: #07bbe7;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: white;
+  border: 1px solid #2b75be;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  height: 2%;
+}
+.rk {
+  margin: 20px;
+}
+.div1 {
+  display: flex;
+}
+.card1 {
+  margin-top: 10px;
+  width: 27rem;
+  height: 650px;
+  margin-left: 20px;
+  border: 1px solid rgb(6, 124, 202);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px black;
+}
+.card {
+  margin-top: 10px;
+  width: 20rem;
+  margin-left: 20px;
+}
+.card-body {
+  height: 100px;
+}
+.book {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/Untitled design.jpg");
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: #4d0505;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+.navbar .nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin: 0 15px;
+}
+
+.navbar .nav-links a {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+  font-size: 25px;
+  padding: 5px 10px;
+  font-weight: 400;
+  font-family: serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  background-color: #1899c0;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 5px 5px 5px #000000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  width: 60%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  margin-left: 40%;
+}
+
+.btnbook {
+  color: #2480c7;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  margin-left: 45%;
+  text-shadow: 3px 4px 3px rgb(155, 155, 155);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 45%;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #2480c7;
+  font-size: 20px;
+}
+
+.form-group input {
+  padding: 8px;
+  border: 1px solid #00a3ee;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #0277bd;
+  box-shadow: 0 0 4px #0277bd;
+}
+
+.btn01 {
+  background-color: #0288d1;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.btn01:hover {
+  background-color: #00679b;
+}
+
+#confirmationMessage {
+  margin-top: 15px;
+  color: #00679b;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 45%;
+}
+
+.medicine-list,
+.cart {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1em;
+  background-color: white;
+  width: 100%;
+}
+.buy-med {
+  display: flex;
+}
+.buy-med1 {
+  display: flex;
+}
+.medicine-item1 ,.medicine-item2,.medicine-item3,.medicine-item32,.medicine-item62,.medicine-item4,.medicine-item5,.medicine-item6{
+  width: 270px;
+  height: 270px;
+  border-radius: 50%; 
+  text-align: center;
+  padding: 60px;
+  margin: 5%;
+  color: rgb(0, 0, 0);
+}
+
+button {
+  background-color: #010203;
+  color: white;
+  border: none;
+  padding: 0.5em ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #03304b;
+}
+.cart-btn {
+  display: flex;
+}
+.cartbtn1 {
+  height: 30%;
+  width: 40%;
+}
+.backbtn1 {
+  height: 30%;
+  width: 40%;
+  border-radius: 28px;
+  background-color: rgb(11, 106, 134);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.link {
+  color: white;
+  transition: background-color 0.3 ease;
+  text-decoration: none;
+}
+.link1 {
+  color: white;
+  width: 27%;
+  transition: background-color 0.3 ease;
+  text-decoration: none;
+}
+
+#cart-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+#cart-list li {
+  margin: 10px;
+}
+
+.cart {
+  border: 1px solid border;
+  height: 290px;
+  text-decoration: none;
+}
+#specialties {
+  text-align: center;
+  padding: 20px;
+}
+
+.specialty-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+#specialties {
+  background: linear-gradient(to right, #027b99, #0b323d);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  width: 100%;
+  height: 700px;
+}
+.specialty {
+  padding: 10px 20px;
+  background-color: #0a749e;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.specialty:hover {
+  background-color: #0a749e;
+}
+
+#doctor-search {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #0795ce;
+  border-radius: 5px;
+}
+
+#doctor-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#doctor-list li {
+  padding: 10px;
+  background-color: #0a749e;
+  border: 1px solid #1881c7;
+  box-shadow: 2px 3px 3px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.button-container {
+  text-align: center;
+  height: 30%;
+  width: 500px;
+  border-radius: 28px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.order-button {
+  height: 43px;
+  width: 50%;
+  border-radius: 28px;
+  background-color: #063c61;
+  border: 2px solid rgb(255, 255, 255);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.order-button:hover {
+  background-color: #000000;
+}
+
+.order-button:active {
+  transform: scale(0.95);
+}
+@media screen and (max-width: 992px) {
+  .home {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/Untitled design.jpg");
+    background-repeat: no-repeat;
+  }
+}
